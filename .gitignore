@@ -1,0 +1,19 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraformrc
+terraform.rc
+
+# Keys
+*.pem
+automate-ec2
+automate-ec2.pub
+
+# Local .terraform directories
+**/.terraform/*
+
+# Crash log files
+crash.log
+crash.*.log
